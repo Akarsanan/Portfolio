@@ -1,0 +1,146 @@
+body{
+    color: #f1dc88 ;
+    background: #2c60b9 ;
+}
+
+.Bienvenue{
+    margin: 150px auto ;
+    width: 70%;
+    font-size: 29px;
+    margin-right: 200px;
+}
+
+h1{
+   
+    letter-spacing: 3px;
+  /*Les tailles de polices doivent etre en rem */
+ 
+  font-weight: 700;
+}
+.images{
+    float: right;
+    min-height: 100px;
+      border-radius: 30% 70% 70% 30% / 67% 62% 38% 33%;  
+      border-color: #f1dc88; 
+      margin-right: 200px;
+      border: 2px solid #f1dc88 ;
+
+      }
+
+h2{
+    text-align: center;
+    font-size: 29px;
+}
+main{
+    
+    color: white;
+    width: 90%;
+    /* Centrer une boite */
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.Experiences {
+            background: rgba(0, 0, 0, 0.601);
+            border: 2px solid rgb(0, 11, 112);
+            border-radius: 30px;
+            padding: 30px;
+            margin-top: 20px;
+           
+}
+
+ /* Experiences* /
+/* Sert a répartir équitablement des éléments sur la page */
+.Experiences ul {
+    padding: 0;
+    
+    justify-content:center ;
+}
+ 
+
+.phone {
+    
+    background: rgba(0, 0, 0, 0.601);
+    border: 2px solid rgb(2, 0, 95);
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 29px;
+    
+}
+
+ /*phone* /
+/* Sert a répartir équitablement des éléments sur la page */
+.phone ul {
+    padding: 0;
+    justify-content:center ;
+}
+
+
+
+.scolaires {
+    background: rgba(0, 0, 0, 0.601);
+            border: 2px solid rgb(0, 11, 112);
+            border-radius: 30px;
+            padding: 30px;
+            margin-top: 20px;
+            
+}
+           
+ /*scolaire* /
+/* Sert a répartir équitablement des éléments sur la page */
+.scolaires ul{
+    padding: 0;
+    justify-content:center ;
+}
+
+.Diplomes{
+    background: rgba(0, 0, 0, 0.601);
+            border: 2px solid rgb(0, 11, 112);
+            border-radius: 30px;
+            padding: 30px;
+            margin-top: 20px;
+            
+}
+
+/*Diplomes* /
+/* Sert a répartir équitablement des éléments sur la page */
+.Diplomes ul{
+    padding: 0;
+    justify-content:center ;
+}
+
+.Compétences {
+    background: rgba(0, 0, 0, 0.601);
+            border: 2px solid rgb(0, 11, 112);
+            border-radius: 30px;
+            padding: 30px;
+            margin-top: 20px;
+            
+}
+           
+ /*Compétences* /
+/* Sert a répartir équitablement des éléments sur la page */
+.Compétences ul{
+    padding: 0;
+    justify-content:center ;
+}
+
+.Compétences li {
+    list-style: none;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    background: turquoise;
+   /* centrer un unique élement verticalement et horizontal */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+footer{
+    text-align: center;
+            margin-top: 20px;
+}
+
+   
